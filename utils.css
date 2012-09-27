@@ -1,0 +1,151 @@
+/* ----------------------------------------------------- */
+/*                    Utitlity Styles                    */
+/* ----------------------------------------------------- */
+
+/* Simple Image Thumbnails */
+
+img.imgleft {
+	float: left;
+	margin: 0 10px 0 0;
+}
+img.imgright {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+img.imgright,
+img.imgleft {
+	border: 1px solid #eaeaea;
+	background-color: #fff;
+	padding: 2px;
+}
+
+/* Image Thumbnails - No Borders */
+
+img.imgright.nostyle,
+img.imgleft.nostyle {
+	border: none;
+	background-color: transparent;
+	padding: 0;
+}
+
+.noborder {
+	border: none;
+}
+
+/* Quick Floats */
+
+.left, .floatleft {
+	float: left;	
+}
+.right, .floatright {
+	float: right;
+}
+
+.center {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+/* Quick Text Alignment */
+
+.textcenter {
+	text-align: center;
+}
+.textleft {
+	text-align: left;
+}
+.textright {
+	text-align: right;
+}
+
+/* Small Text */
+
+
+small,.small {
+	font-size: 12px;
+	color: #5b5b5b;
+}
+
+
+.smaller {
+	font-size: 10px;
+	color: #5b5b5b;
+}
+
+.smallest {
+	font-size: 10px;
+	color: #5b5b5b;
+}
+
+/* Margins & Paddings */
+
+.remove-top {
+	margin-top: 0;
+	padding-top: 0;
+}
+.remove-bottom {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.bottom10 {
+	margin-bottom: 10px;
+}
+.bottom20 {
+	margin-bottom: 20px;
+}
+
+.nopad {
+	padding: 0 0 0 0 !important;
+}
+.nomargin {
+	margin: 0 0 0 0 !important;
+}
+
+.equalheight {
+	line-height: 110%;
+}
+
+/* Tighten kerning (used primarily for headings) */
+
+.tight {
+	letter-spacing: -1px;
+}
+
+/* 32 Shades of Gray */
+
+.gray1 {color: #F7F7F7;}
+.gray2 {color: #EFEFEF;}
+.gray3 {color: #E7E7E7;}
+.gray4 {color: #DFDFDF;}
+.gray5 {color: #D7D7D7;}
+.gray6 {color: #CFCFCF;}
+.gray7 {color: #C7C7C7;}
+.gray8 {color: #BFBFBF;}
+.gray9 {color: #B7B7B7;}
+.gray10 {color: #AFAFAF;}
+.gray11 {color: #A7A7A7;}
+.gray12 {color: #9F9F9F;}
+.gray13 {color: #979797;}
+.gray14 {color: #8F8F8F;}
+.gray15 {color: #878787;}
+.gray16 {color: #7F7F7F;}
+.gray17 {color: #777777;}
+.gray18 {color: #6F6F6F;}
+.gray19 {color: #676767;}
+.gray20 {color: #5F5F5F;}
+.gray21 {color: #575757;}
+.gray22 {color: #4F4F4F;}
+.gray23 {color: #474747;}
+.gray24 {color: #3F3F3F;}
+.gray25 {color: #373737;}
+.gray26 {color: #2F2F2F;}
+.gray27 {color: #272727;}
+.gray28 {color: #1F1F1F;}
+.gray29 {color: #171717;}
+.gray30 {color: #0F0F0F;}
+.gray31 {color: #070707;}
+.black {color: #000000;}
