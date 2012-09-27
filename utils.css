@@ -80,6 +80,13 @@ small,.small {
 	color: #5b5b5b;
 }
 
+.normal {
+	font-weight: normal !important;
+}
+
+.bold {
+	font-weight: bold !important;
+}
 /* Margins & Paddings */
 
 .remove-top {
